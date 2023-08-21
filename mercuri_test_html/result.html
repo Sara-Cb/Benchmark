@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/assets/img/logo.png">
+    <title>Result</title>
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+    <header>
+        <a href="welcome.html"> <img src="assets/img/logo.png" alt="logo" class="logo"></a>
+    </header>
+
+    <main>
+        <div class="container" id="containerResult">
+
+            <div class="titolo">
+                <h1>Results</h1>
+                <h4>The summary of your answers:</h4>
+            </div>
+
+            <div id="result">
+
+                <div id="correct">
+                    <h2>Correct</h2>
+                    <p class="perc"><span id="correctPerc"></span>%</p>
+                </div>
+
+                <div id="center">
+                    <div>
+                        <canvas id="graph"></canvas>
+                    </div>
+
+                    <div id="centeringDiv">
+                        <p id="esito"></p>
+                    </div>
+                </div>
+
+                <div id="wrong">
+                    <h2>Wrong</h2>
+                    <p class="perc"><span id="wrongPerc"></span>%</p>
+                </div>
+
+            </div>
+
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="assets/js/result.js"></script>
+</body>
+
+</html>

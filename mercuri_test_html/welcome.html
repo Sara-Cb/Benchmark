@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="/assets/img/logo.png">
+  <title>Welcome!</title>
+  <link rel="stylesheet" href="assets/css/normalize.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+  <header>
+    <a href="welcome.html">
+      <img src="assets/img/logo.png" alt="logo" class="logo" /></a>
+  </header>
+
+  <main>
+    <div class="container" id="containerWelcome">
+
+      <div id="start">
+        <h1>Welcome to <br /><b> your exam </b></h1>
+        <h3>Instructions</h3>
+        <p>
+          We don't expect most people to know the answers to all of these
+          questions, so don't worry if you're unsure of a few of them.
+        </p>
+      </div>
+
+      <ul>
+        <li>
+          Each question can only be <b>answered once</b>.
+        </li>
+        <li>
+          Changing browser tab or opening other windows will
+          <b>invalidate the question</b>.
+        </li>
+        <li>This exam will take approx. <b>0-5 minutes</b>.</li>
+      </ul>
+
+      <div id="proceed">
+        <form action="benchmark.html">
+
+          <div id="checkBox">
+            <input type="checkbox" name="promise" id="promise" required pattern="true" />
+            <label for="promise">
+              <b>I promise to answer myself without help from anyone</b>
+            </label>
+          </div>
+
+          <div id="btnNext">
+            <button type="submit" class="but">PROCEED</button>
+          </div>
+
+        </form>
+      </div>
+
+    </div>
+  </main>
+</body>
+
+</html>

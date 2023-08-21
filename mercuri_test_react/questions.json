@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "question": "Su quale formula Albert Einstein si basò per costruire la relatività ristretta?",
+    "type": "single_choice",
+    "options": [
+      "L'equazione di Lorenz",
+      "L'equazione della gravitazione universale di Newton",
+      "Le equazioni dell'elettromagnetismo di Maxwell"
+    ],
+    "correctAnswers": ["L'equazione di Lorenz"],
+    "score": 4
+  },
+  {
+    "id": 2,
+    "question": "Come veniva definito da Platone il mondo delle idee?",
+    "type": "single_choice",
+    "options": [
+      "Mondo noumenico",
+      "Mondo iperuranio",
+      "Mondo ultraterreno",
+      "Mondo fenomenico"
+    ],
+    "correctAnswers": ["Mondo iperuranio"],
+    "score": 3
+  },
+  {
+    "id": 3,
+    "question": "Quali dei seguenti personaggi storici sono stati imperatori romani?",
+    "type": "multiple_choice",
+    "options": [
+      "Giulio Cesare",
+      "Tarquinio il superbo",
+      "Nerone",
+      "Scipione l'africano",
+      "Costantino",
+      "Cicerone"
+    ],
+    "correctAnswers": ["Giulio Cesare", "Nerone", "Costantino"],
+    "score": 3
+  },
+  {
+    "id": 4,
+    "question": "Qual è il frutto che per la sua alta concentrazione di potassio risulta radioattivo?",
+    "type": "single_choice",
+    "options": ["La mela", "La banana", "La ciliegia", "Il cocomero"],
+    "correctAnswers": ["La banana"],
+    "score": 2
+  },
+  {
+    "id": 5,
+    "question": "Quali tra questi filosofi è considerato un presocratico?",
+    "type": "multiple_choice",
+    "options": [
+      "Gorgia",
+      "Talete",
+      "Anassimandro",
+      "Democrito",
+      "Socrate",
+      "Aristotele"
+    ],
+    "correctAnswers": ["Talete", "Anassimandro"],
+    "score": 4
+  },
+  {
+    "id": 6,
+    "question": "In quale giorno dell'anno fu incoronato imperatore Carlo Magno?",
+    "type": "single_choice",
+    "options": ["25 dicembre", "1 maggio", "18 Novembre"],
+    "correctAnswers": ["25 dicembre"],
+    "score": 2
+  },
+  {
+    "id": 7,
+    "question": "Quale band fece scandalo per essersi definita più famosa di Gesù?",
+    "type": "single_choice",
+    "options": ["I Beatles", "I Rolling Stones", "I Ramones"],
+    "correctAnswers": ["I Beatles"],
+    "score": 1
+  },
+  {
+    "id": 8,
+    "question": "Trascina gli elementi di seguito in modo da posizionarli in ordine crescente",
+    "type": "order",
+    "options": [
+      "Infanzia",
+      "Adolescenza",
+      "Giovinezza",
+      "Maturità",
+      "Vecchiaia"
+    ],
+    "correctAnswers": [
+      "Infanzia",
+      "Adolescenza",
+      "Giovinezza",
+      "Maturità",
+      "Vecchiaia"
+    ],
+    "score": 3
+  }
+]
