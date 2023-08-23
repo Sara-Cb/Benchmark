@@ -59,7 +59,7 @@ const myChart = new Chart(graph, {
 
 var giudizio = function () {
   if (correct > 5) {
-    return "Congratulations!<br><span id='congrats'>You passed the exam!</span> <br> <span class='little'>We'll send you the certificate in few minutes.<span>";
+    return "Congratulations!<br><span id='congrats'>You passed the exam!</span> <br> <span class='little'>We'll send you the certificate in few minutes.</span>";
   } else {
     return "Oh no!<br><span id='ohNo'>You have not passed the exam.</span> <br> <span class='little'>It will be better next time!</span>";
   }
