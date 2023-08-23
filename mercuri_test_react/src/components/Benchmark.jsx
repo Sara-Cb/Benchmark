@@ -117,7 +117,7 @@ const Benchmark = () => {
               ))}
             </Row>
           ) : (
-            <></>
+            <Row xs={1} sm={2} id="answersDiv"></Row>
           )}
         </div>
       )}

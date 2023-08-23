@@ -211,7 +211,6 @@ function orderQuestionPrint() {
       onDragStart: downAction,
       onRelease: upAction,
       onDrag: dragAction,
-      cursor: "move",
       type: "y",
     });
 
